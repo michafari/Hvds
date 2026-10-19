@@ -4,10 +4,29 @@
     height: 100vh; 
     background-repeat: no-repeat; 
     background-size: cover;
+    background-position: 30% top;
 }
-
-.logo{
-    width:33.3%;
-    min-width:150px;
-
+.list-group-item.active{
+    background-color:darkgreen;
+    color:white;
+}
+.list-group-item{
+    background-color:rgb(87, 119, 87);
+    color:white;    
+    padding-right:30px;
+    font-size:2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+margin-left:35%;
+margin-top:5%;
+font-size:2.5rem;
+padding:10px 30px 10px 30px;
+background-color:peru;
+border-color:darkgreen;
+border-width:2px;
+border-radius:25px;
+color:black;
+font-weight:bold;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
